@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		381D8FD81E4AFBBE00A10748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D8FD71E4AFBBE00A10748 /* AppDelegate.swift */; };
 		381D8FDF1E4AFBBE00A10748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381D8FDE1E4AFBBE00A10748 /* Assets.xcassets */; };
-		381D8FED1E4AFBBE00A10748 /* SwiftWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D8FEC1E4AFBBE00A10748 /* SwiftWikiTests.swift */; };
 		381D8FF81E4AFBBE00A10748 /* SwiftWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D8FF71E4AFBBE00A10748 /* SwiftWikiUITests.swift */; };
 		381D90071E4AFCF600A10748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D90051E4AFCF600A10748 /* ViewController.swift */; };
 		381D90081E4AFCF600A10748 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381D90061E4AFCF600A10748 /* ViewController.xib */; };
+		382A6B831E4CFA0900A1CEE5 /* WikiTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A6B821E4CFA0900A1CEE5 /* WikiTop.swift */; };
+		382A6B8C1E4D027D00A1CEE5 /* WikiTopInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A6B8B1E4D027D00A1CEE5 /* WikiTopInteractor.swift */; };
+		382A6B8F1E4D02C200A1CEE5 /* WikiTopApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A6B8E1E4D02C200A1CEE5 /* WikiTopApiService.swift */; };
+		38422A0D1E52E4C1000ABEFC /* WikiTopApiServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38422A0C1E52E4C1000ABEFC /* WikiTopApiServiceProtocol.swift */; };
+		38F628A31E4D9719005DC321 /* WikiTopApiServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F628A21E4D9719005DC321 /* WikiTopApiServiceSpec.swift */; };
 		548239641142D22216CB17EB /* Pods_SwiftWiki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A90C345CC427E330709FE42 /* Pods_SwiftWiki.framework */; };
 		9126FC34DEB4235693762998 /* Pods_SwiftWikiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0079CE0DFDA6C5A81DB1BF4F /* Pods_SwiftWikiUITests.framework */; };
 		BEA292BDB491AAF14743976A /* Pods_SwiftWikiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769C7B56895E0C03C4E3E249 /* Pods_SwiftWikiTests.framework */; };
@@ -43,13 +47,17 @@
 		381D8FDE1E4AFBBE00A10748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381D8FE31E4AFBBE00A10748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381D8FE81E4AFBBE00A10748 /* SwiftWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		381D8FEC1E4AFBBE00A10748 /* SwiftWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWikiTests.swift; sourceTree = "<group>"; };
 		381D8FEE1E4AFBBE00A10748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381D8FF31E4AFBBE00A10748 /* SwiftWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		381D8FF71E4AFBBE00A10748 /* SwiftWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWikiUITests.swift; sourceTree = "<group>"; };
 		381D8FF91E4AFBBE00A10748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381D90051E4AFCF600A10748 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		381D90061E4AFCF600A10748 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		382A6B821E4CFA0900A1CEE5 /* WikiTop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiTop.swift; sourceTree = "<group>"; };
+		382A6B8B1E4D027D00A1CEE5 /* WikiTopInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiTopInteractor.swift; sourceTree = "<group>"; };
+		382A6B8E1E4D02C200A1CEE5 /* WikiTopApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiTopApiService.swift; sourceTree = "<group>"; };
+		38422A0C1E52E4C1000ABEFC /* WikiTopApiServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiTopApiServiceProtocol.swift; sourceTree = "<group>"; };
+		38F628A21E4D9719005DC321 /* WikiTopApiServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiTopApiServiceSpec.swift; sourceTree = "<group>"; };
 		769C7B56895E0C03C4E3E249 /* Pods_SwiftWikiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWikiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D4BAF95C80970253537A3C /* Pods-SwiftWikiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWikiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWikiTests/Pods-SwiftWikiTests.release.xcconfig"; sourceTree = "<group>"; };
 		C80B406A4147EF6452794EE6 /* Pods-SwiftWikiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWikiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWikiUITests/Pods-SwiftWikiUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +133,9 @@
 		381D8FD61E4AFBBE00A10748 /* SwiftWiki */ = {
 			isa = PBXGroup;
 			children = (
+				382A6B8D1E4D02B300A1CEE5 /* Network */,
+				382A6B851E4CFAC200A1CEE5 /* Modules */,
+				382A6B841E4CFABC00A1CEE5 /* Models */,
 				381D8FD71E4AFBBE00A10748 /* AppDelegate.swift */,
 				381D8FDE1E4AFBBE00A10748 /* Assets.xcassets */,
 				381D8FE31E4AFBBE00A10748 /* Info.plist */,
@@ -137,8 +148,9 @@
 		381D8FEB1E4AFBBE00A10748 /* SwiftWikiTests */ = {
 			isa = PBXGroup;
 			children = (
-				381D8FEC1E4AFBBE00A10748 /* SwiftWikiTests.swift */,
+				382A6B861E4CFE2C00A1CEE5 /* ModelSpec */,
 				381D8FEE1E4AFBBE00A10748 /* Info.plist */,
+				38F628A21E4D9719005DC321 /* WikiTopApiServiceSpec.swift */,
 			);
 			path = SwiftWikiTests;
 			sourceTree = "<group>";
@@ -150,6 +162,54 @@
 				381D8FF91E4AFBBE00A10748 /* Info.plist */,
 			);
 			path = SwiftWikiUITests;
+			sourceTree = "<group>";
+		};
+		382A6B811E4CF9E000A1CEE5 /* WikiTop */ = {
+			isa = PBXGroup;
+			children = (
+				382A6B8A1E4D025F00A1CEE5 /* Interactor */,
+			);
+			name = WikiTop;
+			sourceTree = "<group>";
+		};
+		382A6B841E4CFABC00A1CEE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				382A6B821E4CFA0900A1CEE5 /* WikiTop.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		382A6B851E4CFAC200A1CEE5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				382A6B811E4CF9E000A1CEE5 /* WikiTop */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		382A6B861E4CFE2C00A1CEE5 /* ModelSpec */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelSpec;
+			sourceTree = "<group>";
+		};
+		382A6B8A1E4D025F00A1CEE5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				382A6B8B1E4D027D00A1CEE5 /* WikiTopInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		382A6B8D1E4D02B300A1CEE5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				382A6B8E1E4D02C200A1CEE5 /* WikiTopApiService.swift */,
+				38422A0C1E52E4C1000ABEFC /* WikiTopApiServiceProtocol.swift */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 		B54CDD92F610EF73A695128E /* Frameworks */ = {
@@ -445,6 +505,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38422A0D1E52E4C1000ABEFC /* WikiTopApiServiceProtocol.swift in Sources */,
+				382A6B8C1E4D027D00A1CEE5 /* WikiTopInteractor.swift in Sources */,
+				382A6B8F1E4D02C200A1CEE5 /* WikiTopApiService.swift in Sources */,
+				382A6B831E4CFA0900A1CEE5 /* WikiTop.swift in Sources */,
 				381D90071E4AFCF600A10748 /* ViewController.swift in Sources */,
 				381D8FD81E4AFBBE00A10748 /* AppDelegate.swift in Sources */,
 			);
@@ -454,7 +518,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				381D8FED1E4AFBBE00A10748 /* SwiftWikiTests.swift in Sources */,
+				38F628A31E4D9719005DC321 /* WikiTopApiServiceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

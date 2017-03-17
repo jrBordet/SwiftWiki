@@ -1,18 +1,25 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
 
 target 'SwiftWiki' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
 
+  pod 'AlamofireObjectMapper', '~> 4.0'
+  pod 'RxSwift', '3.0'
+  pod 'RxCocoa',    '~> 3.0'
+  
   target 'SwiftWikiTests' do
-    inherit! :search_paths
-    # Pods for testing
+      inherit! :search_paths
+      pod 'Quick'
+      pod 'Nimble'
+      
+      pod 'RxBlocking', '~> 3.0'
+      pod 'RxTest',     '~> 3.0'
   end
-
+  
   target 'SwiftWikiUITests' do
-    inherit! :search_paths
-    # Pods for testing
+      inherit! :search_paths
   end
 
 end
+
